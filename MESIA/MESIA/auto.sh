@@ -1,0 +1,1 @@
+bash MESIA.sh test GM12878_rep1 GM12878_rep2 GM12878_rep3 GM12878_rep4 30 hs
