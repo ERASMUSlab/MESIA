@@ -1,8 +1,9 @@
-<img alt="image" src="https://github.com/ERASMUSlab/MESIA/assets/135592214/7375e99e-5819-40a1-90f0-9e9c43d1473d">
+<img width="1000" alt="image" src="https://github.com/ERASMUSlab/MESIA/assets/135592214/7375e99e-5819-40a1-90f0-9e9c43d1473d">
 
 
-<img width="755" alt="image" src="https://github.com/ERASMUSlab/MESIA/assets/135592214/6ee0de9b-ce09-4d50-9780-6c4133a21d27">
-
+<img width="1000" alt="image" src="https://github.com/ERASMUSlab/MESIA/assets/135592214/6ee0de9b-ce09-4d50-9780-6c4133a21d27">
+<br>
+<br>
 
 Among many methods of measuring chromatin accessibility, Assay for Transposase Accessible Chromatin (ATAC-seq) is widely used. 
 As like many other types of next generation sequencing (NGS), researchers include multi-sample replication in ATAC-seq experimental designs 
