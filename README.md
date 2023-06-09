@@ -12,4 +12,6 @@ MESIA detected 8.61 times more peaks than previously used method, and value (med
 These results indicate that MSIA is less likely to determine false positive peak than previously used method. 
 MESIA is a shell script-based open source code that provides researchers involved in epigenome with comprehensive insight into peak and strategies 
 for multi-sample integrates.
+<img width="755" alt="image" src="https://github.com/ERASMUSlab/MESIA/assets/135592214/6ee0de9b-ce09-4d50-9780-6c4133a21d27">
+
 
