@@ -10,7 +10,7 @@ As like many other types of next generation sequencing (NGS), researchers includ
 to compensate for lack of consistency. 
 In epigenome analysis, researchers should measure subtle changes in peak considering read depth of individual samples. 
 It is very important to determine whether peaks of each replication have integrative meaning for interesting region observed during multi-sample integration. 
-Therefore, we developed MSIA that integrates replication with high representative & reproducibility in multi sample replication and determine optimal peak. 
+Therefore, we developed MESIA that integrates replication with high representative & reproducibility in multi sample replication and determine optimal peak. 
 Based on IDR, our methods identify reproducibility between all replications while derives distance from beginning of peak to point and Q value. 
 Afterwards, multi samples determined as representative replication are integrated using the distance and Q value. 
 When verifying performance based on expression value of gene with a peak formed in promoter, 
