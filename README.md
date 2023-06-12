@@ -5,7 +5,7 @@
 <br>
 <br>
 
-<b>Features<b/>
+<b>Features</b>
   Among many methods of measuring chromatin accessibility, Assay for Transposase Accessible Chromatin (ATAC-seq) is widely used. 
   As like many other types of next generation sequencing (NGS), researchers include multi-sample replication in ATAC-seq experimental designs 
   to compensate for lack of consistency. 
@@ -20,7 +20,7 @@
   MESIA is a shell script-based open source code that provides researchers involved in epigenome with comprehensive insight into peak and strategies 
   for multi-sample integrates.
   
-<b>Quick start<b/>
+<b>Quick start</b>
   1. Install MESIA
   git clone 
 
