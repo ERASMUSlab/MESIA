@@ -1,5 +1,5 @@
-<img width="1000" alt="image" src="https://github.com/ERASMUSlab/MESIA/assets/135592214/7375e99e-5819-40a1-90f0-9e9c43d1473d">
-
+# <b><center>MESIA</center></b>
+# <b><center>Multi-Epigenome Sample Integration Approach for Precise Peak Calling</center></b>
 
 <img width="1000" alt="image" src="https://github.com/ERASMUSlab/MESIA/assets/135592214/6ee0de9b-ce09-4d50-9780-6c4133a21d27">
 <br>
