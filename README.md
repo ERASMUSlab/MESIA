@@ -22,7 +22,12 @@
   
 <b>Quick start</b>
   1. Install MESIA
-  git clone 
+  git clone https://github.com/ERASMUSlab/MESIA.git
+  
+  2. Input BAM file
+  cd MESIA/Input_NF
+  
+  
 
 
 
