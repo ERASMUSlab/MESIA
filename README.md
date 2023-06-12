@@ -5,7 +5,7 @@
 <br>
 <br>
 
-##<b>Features</b>
+## <b>Features</b>
   Among many methods of measuring chromatin accessibility, Assay for Transposase Accessible Chromatin (ATAC-seq) is widely used. 
   As like many other types of next generation sequencing (NGS), researchers include multi-sample replication in ATAC-seq experimental designs 
   to compensate for lack of consistency. 
@@ -20,18 +20,18 @@
   MESIA is a shell script-based open source code that provides researchers involved in epigenome with comprehensive insight into peak and strategies 
   for multi-sample integrates.
   
-##<b>Quick start</b>
-  ###<b>1. Install MESIA</b>
+## <b>Quick start</b>
+  ### <b>1. Install MESIA</b>
   '''git clone https://github.com/ERASMUSlab/MESIA.git'''
   
-  ###<b>2. Input BAM file</b>
-  '''cd MESIA/Input_NF
+  ### <b>2. Input BAM file</b>
+  ''' cd MESIA/Input_NF
   cp "Your Input file path" . '''
   
-  ###<b>3. Run MESIA</b>
-  '''cd ../Program
-  bash MESIA.sh "Project Name" "BAM file1" "BAM file2" "BAM file3" "BAM file4" "Threads" "mappable genome size"'''
-  '''bash MESIA.sh test GM12878_rep1 GM12878_rep2 GM12878_rep3 GM12878_rep4 30 hs'''
+  ### <b>3. Run MESIA</b>
+  ''' cd ../Program
+  bash MESIA.sh "Project Name" "BAM file1" "BAM file2" "BAM file3" "BAM file4" "Threads" "mappable genome size" '''
+  ''' bash MESIA.sh test GM12878_rep1 GM12878_rep2 GM12878_rep3 GM12878_rep4 30 hs '''
   mappable genome size section can be "hs", "mm", or others
   
   
