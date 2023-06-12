@@ -1,5 +1,4 @@
-# <b>MESIA<br>
-  Multi-Epigenome Sample Integration Approach for Precise Peak Calling</b>
+# <b>MESIA<br>Multi-Epigenome Sample Integration Approach for Precise Peak Calling</b>
 
 <img width="1000" alt="image" src="https://github.com/ERASMUSlab/MESIA/assets/135592214/6ee0de9b-ce09-4d50-9780-6c4133a21d27">
 <br>
