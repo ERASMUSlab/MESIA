@@ -22,16 +22,16 @@
   
 ## <b>Quick start</b>
   ### <b>1. Install MESIA</b>
-  '''git clone https://github.com/ERASMUSlab/MESIA.git'''
+  <pre><code>git clone https://github.com/ERASMUSlab/MESIA.git</pre></code>
   
   ### <b>2. Input BAM file</b>
-  ''' cd MESIA/Input_NF
-  cp "Your Input file path" . '''
+  <pre><code>cd MESIA/Input_NF
+  cp "Your Input file path" . </pre></code>
   
   ### <b>3. Run MESIA</b>
-  ''' cd ../Program
-  bash MESIA.sh "Project Name" "BAM file1" "BAM file2" "BAM file3" "BAM file4" "Threads" "mappable genome size" '''
-  ''' bash MESIA.sh test GM12878_rep1 GM12878_rep2 GM12878_rep3 GM12878_rep4 30 hs '''
+  <pre><code>cd ../Program
+  bash MESIA.sh "Project Name" "BAM file1" "BAM file2" "BAM file3" "BAM file4" "Threads" "mappable genome size"</pre></code>
+  <pre><code>bash MESIA.sh test GM12878_rep1 GM12878_rep2 GM12878_rep3 GM12878_rep4 30 hs</pre></code>
   mappable genome size section can be "hs", "mm", or others
   
   
