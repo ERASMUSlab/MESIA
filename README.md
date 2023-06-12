@@ -27,7 +27,7 @@
   
   ### <b>2. Input BAM file</b>
   ```shell script
-  cd MESIA/Input_NF
+  cd MESIA/MESIA/Input_NF
   cp "Your Input file path" . 
   ```
   
