@@ -99,6 +99,35 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
    ============================================
    ```
 
+  + <b>Result_MESIA_stage1.txt</b>
+    + Result matrix of MESIA stage1.
+
+   ```shell script
+   ===================================
+   Result of Self-consistence analysis
+   ===================================
+      s1 s2 s3   
+   s1 ~  O  O  
+   s2 O  ~  O  
+   s3 O  O  ~  
+   ===================================
+   Result of Rescue analysis
+   ===================================
+      s1 s2 s3   
+   s1 ~  O  X  
+   s2 O  ~  X  
+   s3 X  X  ~ 
+   ===================================
+   Result of MESIA stage1 analysis
+   ===================================
+      s1 s2 s3   
+   s1 ~  O  X   
+   s2 O  ~  X   
+   s3 X  X  ~   
+   
+   Passed replication set is
+   DAY0_rep1-DAY0_rep2 
+   ```
 
   
   
