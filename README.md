@@ -61,7 +61,7 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   
   ## <b>Output</b>
   + MESIA_optimal.narrowPeak
-    1. chrom - Name of the chromosome (or contig, scaffold, etc.).
+    + chrom - Name of the chromosome (or contig, scaffold, etc.).
     2. chromStart - The starting position of the feature in the chromosome or scaffold. The first base in a chromosome is numbered 0.
   3. chromEnd - The ending position of the feature in the chromosome or scaffold. The chromEnd base is not included in the display of the feature. For example, the first 100 bases of a chromosome are defined as chromStart=0, chromEnd=100, and span the bases numbered 0-99.
   4. name - Name given to a region (preferably unique). Use "." if no name is assigned.
