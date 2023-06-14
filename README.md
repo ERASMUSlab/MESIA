@@ -86,7 +86,8 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   ```
   
   + <b>General_info.txt</b>
-    Display experiment title, input data, number of threads and genome size.
+    + Display experiment title, input data, number of threads and genome size.
+  
     ```shell script
     ============================================
     =========== General information ============
