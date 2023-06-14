@@ -115,7 +115,7 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
       + chromStart - The starting position of the feature in the chromosome or scaffold.
       + chromEnd - The ending position of the feature in the chromosome or scaffold. 
       + name - Name given to a region (preferably unique). Use "." if no name is assigned.
-      + score - Indicates how dark the peak will be displayed in the browser (0-1000). 
+      + score - Indicates how dark the peak will be displayed in the browser. 
       + strand - +/- to denote strand or orientation (whenever applicable). Use "." if no orientation is assigned.
       + signalValue - Measurement of overall (usually, average) enrichment for the region.
       + pValue - Measurement of statistical significance (-log10).
