@@ -61,16 +61,16 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   
   ## <b>Output</b>
   + <b>MESIA_optimal.narrowPeak</b>
-    + chrom - Name of the chromosome (or contig, scaffold, etc.).
-    + chromStart - The starting position of the feature in the chromosome or scaffold.
-    + chromEnd - The ending position of the feature in the chromosome or scaffold. 
-    + name - Name given to a region (preferably unique). Use "." if no name is assigned.
-    + score - Indicates how dark the peak will be displayed in the browser (0-1000). 
-    + strand - +/- to denote strand or orientation (whenever applicable). Use "." if no orientation is assigned.
-    + signalValue - Measurement of overall (usually, average) enrichment for the region.
-    + pValue - Measurement of statistical significance (-log10).
-    + qValue - Measurement of statistical significance using false discovery rate (-log10).
-    + peak - Point-source called for this peak; 0-based offset from chromStart.
+      + chrom - Name of the chromosome (or contig, scaffold, etc.).
+      + chromStart - The starting position of the feature in the chromosome or scaffold.
+      + chromEnd - The ending position of the feature in the chromosome or scaffold. 
+      + name - Name given to a region (preferably unique). Use "." if no name is assigned.
+      + score - Indicates how dark the peak will be displayed in the browser (0-1000). 
+      + strand - +/- to denote strand or orientation (whenever applicable). Use "." if no orientation is assigned.
+      + signalValue - Measurement of overall (usually, average) enrichment for the region.
+      + pValue - Measurement of statistical significance (-log10).
+      + qValue - Measurement of statistical significance using false discovery rate (-log10).
+      + peak - Point-source called for this peak; 0-based offset from chromStart.
 
   ```shell script
   chr1	4688502	4688766	.	864.75	.	43.566975	110.47625	107.238775	176
@@ -86,7 +86,7 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   ```
   
   + <b>General_info.txt</b>
-    + Display experiment title, input data, number of threads and genome size.
+      + Display experiment title, input data, number of threads and genome size.
   
    ```shell script
    ============================================
@@ -100,7 +100,7 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
    ```
 
   + <b>Result_MESIA_stage1.txt</b>
-    + Result matrix of MESIA stage1.
+      + Result matrix of MESIA stage1.
 
    ```shell script
    ===================================
