@@ -61,6 +61,8 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   
   ## <b>Output</b>
   + MESIA_optimal.narrowPeak
+  + + chrom - Name of the chromosome (or contig, scaffold, etc.).
+
   ```shell script
   chr1	4688502	4688766	.	864.75	.	43.566975	110.47625	107.238775	176
   chr1	4688963	4689167	.	891.5	.	46.87355	120.97355	117.6737	91
