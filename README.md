@@ -62,15 +62,15 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   ## <b>Output</b>
   + MESIA_optimal.narrowPeak
     + chrom - Name of the chromosome (or contig, scaffold, etc.).
-    2. chromStart - The starting position of the feature in the chromosome or scaffold. The first base in a chromosome is numbered 0.
-  3. chromEnd - The ending position of the feature in the chromosome or scaffold. The chromEnd base is not included in the display of the feature. For example, the first 100 bases of a chromosome are defined as chromStart=0, chromEnd=100, and span the bases numbered 0-99.
-  4. name - Name given to a region (preferably unique). Use "." if no name is assigned.
-  5. score - Indicates how dark the peak will be displayed in the browser (0-1000). If all scores were "'0"' when the data were submitted to the DCC, the DCC assigned scores 1-1000 based on signal value. Ideally the average signalValue per base spread is between 100-1000.
-  6. strand - +/- to denote strand or orientation (whenever applicable). Use "." if no orientation is assigned.
-  7. signalValue - Measurement of overall (usually, average) enrichment for the region.
-  8. pValue - Measurement of statistical significance (-log10). Use -1 if no pValue is assigned.
-  9. qValue - Measurement of statistical significance using false discovery rate (-log10). Use -1 if no qValue is assigned.
-  10. peak - Point-source called for this peak; 0-based offset from chromStart. Use -1 if no point-source called.
+    + chromStart - The starting position of the feature in the chromosome or scaffold.
+    + chromEnd - The ending position of the feature in the chromosome or scaffold. 
+    + name - Name given to a region (preferably unique). Use "." if no name is assigned.
+    + score - Indicates how dark the peak will be displayed in the browser (0-1000). 
+    + strand - +/- to denote strand or orientation (whenever applicable). Use "." if no orientation is assigned.
+    + signalValue - Measurement of overall (usually, average) enrichment for the region.
+    + pValue - Measurement of statistical significance (-log10).
+    + qValue - Measurement of statistical significance using false discovery rate (-log10).
+    + peak - Point-source called for this peak; 0-based offset from chromStart.
 
   ```shell script
   chr1	4688502	4688766	.	864.75	.	43.566975	110.47625	107.238775	176
