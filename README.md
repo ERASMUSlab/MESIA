@@ -130,10 +130,10 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
    ```
    
  + <b>MESIA stage1 Self-consistence</b>
-  + Files of MESIA stage1 Self-consistence analysis
+    + Files of MESIA stage1 Self-consistence analysis
 
  + <b>MESIA stage1 rescue</b> 
-  + Files of MESIA stage1 rescue analysis
+   + Files of MESIA stage1 rescue analysis
   
   
   
