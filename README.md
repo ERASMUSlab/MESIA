@@ -84,6 +84,20 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   chr1	9545419	9547400	.	843.25	.	40.806025	101.765175	98.569575	189.25
   chr1	9745452	9748276	.	727	.	31.1453	73.4112	70.5175	454
   ```
+  
+  + <b>General_info.txt</b>
+    Display experiment title, input data, number of threads and genome size.
+    ```shell script
+    ============================================
+    =========== General information ============
+    ============================================
+    Experiment name : test
+    sample list : DAY0_rep1 DAY0_rep2 DAY0_rep3
+    core : 30
+    size : mm
+    ============================================
+    ```
+
 
   
   
