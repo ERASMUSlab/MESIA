@@ -60,31 +60,6 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   mappable genome size section can be hs, mm or others
   
   ## <b>Output</b>
-  + <b>MESIA_optimal.narrowPeak</b>
-      + chrom - Name of the chromosome (or contig, scaffold, etc.).
-      + chromStart - The starting position of the feature in the chromosome or scaffold.
-      + chromEnd - The ending position of the feature in the chromosome or scaffold. 
-      + name - Name given to a region (preferably unique). Use "." if no name is assigned.
-      + score - Indicates how dark the peak will be displayed in the browser (0-1000). 
-      + strand - +/- to denote strand or orientation (whenever applicable). Use "." if no orientation is assigned.
-      + signalValue - Measurement of overall (usually, average) enrichment for the region.
-      + pValue - Measurement of statistical significance (-log10).
-      + qValue - Measurement of statistical significance using false discovery rate (-log10).
-      + peak - Point-source called for this peak; 0-based offset from chromStart.
-
-  ```shell script
-  chr1	4688502	4688766	.	864.75	.	43.566975	110.47625	107.238775	176
-  chr1	4688963	4689167	.	891.5	.	46.87355	120.97355	117.6737	91
-  chr1	4771118	4771440	.	1000	.	43.736	112.307	109.21	231
-  chr1	4776272	4776804	.	1472.25	.	95.801275	287.73925	283.984	192.75
-  chr1	4844967	4846600	.	1011.666667	.	69.51251333	201.3756166	197.9333833	691.5
-  chr1	4896692	4896898	.	1210.75	.	75.159125	215.3315	211.74	104.25
-  chr1	5083128	5083590	.	1018	.	53.2404	140.4385	137.073	91
-  chr1	7169526	7171356	.	938	.	28.4947	65.6063	62.7625	259
-  chr1	9545419	9547400	.	843.25	.	40.806025	101.765175	98.569575	189.25
-  chr1	9745452	9748276	.	727	.	31.1453	73.4112	70.5175	454
-  ```
-  
   + <b>General_info.txt</b>
       + Display experiment title, input data, number of threads and genome size.
   
@@ -135,7 +110,30 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
  + <b>MESIA stage1 rescue</b> 
    + Files of MESIA stage1 rescue analysis
   
-  
+  + <b>MESIA_optimal.narrowPeak</b>
+      + chrom - Name of the chromosome (or contig, scaffold, etc.).
+      + chromStart - The starting position of the feature in the chromosome or scaffold.
+      + chromEnd - The ending position of the feature in the chromosome or scaffold. 
+      + name - Name given to a region (preferably unique). Use "." if no name is assigned.
+      + score - Indicates how dark the peak will be displayed in the browser (0-1000). 
+      + strand - +/- to denote strand or orientation (whenever applicable). Use "." if no orientation is assigned.
+      + signalValue - Measurement of overall (usually, average) enrichment for the region.
+      + pValue - Measurement of statistical significance (-log10).
+      + qValue - Measurement of statistical significance using false discovery rate (-log10).
+      + peak - Point-source called for this peak; 0-based offset from chromStart.
+
+  ```shell script
+  chr1	4688502	4688766	.	864.75	.	43.566975	110.47625	107.238775	176
+  chr1	4688963	4689167	.	891.5	.	46.87355	120.97355	117.6737	91
+  chr1	4771118	4771440	.	1000	.	43.736	112.307	109.21	231
+  chr1	4776272	4776804	.	1472.25	.	95.801275	287.73925	283.984	192.75
+  chr1	4844967	4846600	.	1011.666667	.	69.51251333	201.3756166	197.9333833	691.5
+  chr1	4896692	4896898	.	1210.75	.	75.159125	215.3315	211.74	104.25
+  chr1	5083128	5083590	.	1018	.	53.2404	140.4385	137.073	91
+  chr1	7169526	7171356	.	938	.	28.4947	65.6063	62.7625	259
+  chr1	9545419	9547400	.	843.25	.	40.806025	101.765175	98.569575	189.25
+  chr1	9745452	9748276	.	727	.	31.1453	73.4112	70.5175	454
+  ```
   
 
 
