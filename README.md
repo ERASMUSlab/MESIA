@@ -18,7 +18,24 @@
   These results indicate that MSIA is less likely to determine false positive peak than previously used method. 
   MESIA is a shell script-based open source code that provides researchers involved in epigenome with comprehensive insight into peak and strategies 
   for multi-sample integrates.
-  
+
+## <b>Installation</b>
+MESIA requires following packages:
++ shuf
++ bedtools
++ samtools
++ macs2
++ featureCounts
++ idr
+
+```
+micromamba install --allow-downgrade -y -c conda-forge -c bioconda bedtools
+micromamba install --allow-downgrade -y -c conda-forge -c bioconda samtools
+micromamba install --allow-downgrade -y -c conda-forge -c bioconda macs2
+micromamba install --allow-downgrade -y -c conda-forge -c bioconda subread
+micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
+```
+
 ## <b>Quick start</b>
   ### <b>1. Install MESIA</b>
   ```shell script
