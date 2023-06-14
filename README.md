@@ -60,7 +60,7 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   mappable genome size section can be hs, mm or others
   
   ## <b>Output</b>
-  + MESIA_optimal.narrowPeak
+  + <b>MESIA_optimal.narrowPeak</b>
     + chrom - Name of the chromosome (or contig, scaffold, etc.).
     + chromStart - The starting position of the feature in the chromosome or scaffold.
     + chromEnd - The ending position of the feature in the chromosome or scaffold. 
