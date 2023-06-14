@@ -55,7 +55,7 @@ micromamba install --allow-downgrade -y -c conda-forge -c bioconda idr
   ``` 
   example
   ```shell script
-  bash MESIA.sh test GM12878_rep1 GM12878_rep2 GM12878_rep3 GM12878_rep4 30 hs
+  bash MESIA.sh test DAY0_rep1 DAY0_rep2 DAY0_rep3 30 mm
   ```
   mappable genome size section can be hs, mm or others
   
