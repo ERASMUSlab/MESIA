@@ -23,7 +23,7 @@
 MESIA requires following packages:
 + shuf
 + bedtools
-+ samtools
++ samtools >= 1.6
 + macs2
 + featureCounts
 + idr
